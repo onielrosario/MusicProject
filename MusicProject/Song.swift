@@ -28,7 +28,7 @@ class Song {
                            Song.init(name: "Lean On", artist: "Major Lazer", file: "leanOn", image: UIImage.init(named: "major")!),
                            Song.init(name: "Feels Like Summer", artist: "Childish Gambino", file: "summer", image: UIImage.init(named: "childish")!),
                            Song.init(name: "Elevate", artist: "Drake", file: "elevate", image: UIImage.init(named: "drake")!),
-                           Song.init(name: "Wonderwall", artist: "Drake", file: "wonderwall", image: UIImage.init(named: "oasis")!),
+                           Song.init(name: "Wonderwall", artist: "Oasis", file: "wonderwall", image: UIImage.init(named: "oasis")!),
                            Song.init(name: "Slide", artist: "Calvin Harris", file: "Slide", image: UIImage.init(named: "slide")!),
                            Song.init(name: "Feelings", artist: "Mayorkun", file: "feelings", image: UIImage.init(named: "feelings")!),
                            Song.init(name: "SICKO MODE", artist: "Travis Scott", file: "sickoMode", image: UIImage.init(named: "sicko")!),

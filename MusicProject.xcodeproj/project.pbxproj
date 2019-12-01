@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A0323021A30D34007EA48D /* ShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0322F21A30D34007EA48D /* ShowCell.swift */; };
+		09A0323221A31954007EA48D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0323121A31954007EA48D /* PlayerViewController.swift */; };
 		8176CDDC21A2E9E100E6AEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8176CDDB21A2E9E100E6AEFB /* AppDelegate.swift */; };
 		8176CDDE21A2E9E100E6AEFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8176CDDD21A2E9E100E6AEFB /* ViewController.swift */; };
 		8176CDE121A2E9E100E6AEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8176CDDF21A2E9E100E6AEFB /* Main.storyboard */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A0322F21A30D34007EA48D /* ShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCell.swift; sourceTree = "<group>"; };
+		09A0323121A31954007EA48D /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		8176CDD821A2E9E100E6AEFB /* MusicProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8176CDDB21A2E9E100E6AEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8176CDDD21A2E9E100E6AEFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,8 +127,10 @@
 			children = (
 				8176CDDB21A2E9E100E6AEFB /* AppDelegate.swift */,
 				8176CDDD21A2E9E100E6AEFB /* ViewController.swift */,
+				09A0322F21A30D34007EA48D /* ShowCell.swift */,
 				8176CE2521A2EAA100E6AEFB /* Song.swift */,
 				8176CDDF21A2E9E100E6AEFB /* Main.storyboard */,
+				09A0323121A31954007EA48D /* PlayerViewController.swift */,
 				8176CDE221A2E9E200E6AEFB /* Assets.xcassets */,
 				8176CE0021A2EA6200E6AEFB /* always.mp3 */,
 				8176CDFD21A2EA6200E6AEFB /* classicMan.mp3 */,
@@ -286,7 +292,9 @@
 			files = (
 				8176CE2621A2EAA100E6AEFB /* Song.swift in Sources */,
 				8176CDDE21A2E9E100E6AEFB /* ViewController.swift in Sources */,
+				09A0323021A30D34007EA48D /* ShowCell.swift in Sources */,
 				8176CDDC21A2E9E100E6AEFB /* AppDelegate.swift in Sources */,
+				09A0323221A31954007EA48D /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3B9BY3LUJD;
+				DEVELOPMENT_TEAM = AVC7FB3M8N;
 				INFOPLIST_FILE = MusicProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,7 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3B9BY3LUJD;
+				DEVELOPMENT_TEAM = AVC7FB3M8N;
 				INFOPLIST_FILE = MusicProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
